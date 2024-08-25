@@ -1,0 +1,445 @@
+body{
+    background-color: #213a57;
+}
+.container-header{
+    width: 100%;
+    height: 60px;
+    background-color: #0b6477;
+    display: flex;
+    color: white;
+
+}
+.start{
+    width: 20%;
+    height: 100%;
+    /* display: inline-flex; */
+    /* background-color: aqua; */
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    margin-top: -35px;
+}
+p{
+    margin-left: 20px;
+}
+.menu{
+    width: 60%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: 20px; */
+    
+}
+.menu a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none; 
+    padding: 15px;
+    /* float: left; */
+    font-size: 20px;
+    color: white;
+    opacity: 90%;
+}
+.menu a:hover{
+    background-color: #45dfb1;
+    text-decoration: underline;
+    opacity: 100%;
+}
+.end{
+    width: 20%;
+    height: 100%;
+    /* background-color: brown; */
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.end a{
+    color: white;
+}
+.end a:hover{
+    font-size: larger;
+    transition: 0.2s;
+}
+nav{
+    width: 97%;
+    overflow: hidden;
+    /* height: 700px; */
+    /* background-color: blue; */
+    margin-left: 20px;
+}
+nav p{
+    font-family: "Dangrek", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.all-box{
+    width: 100%;
+    overflow: hidden;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+}
+.all-box .box{
+    width: 25%;
+    height: 60px;
+    background-color: #0b6477;
+    margin: 30px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.all-box .box p{
+    font-family: "Exo 2", sans-serif;
+    text-align: center;
+}
+.all-box .box p:hover{
+    /* font-size: large; */
+    transition: 0.3s;
+}
+.all-box .box:hover{
+    box-shadow: 0 0 10px #45dfb1;
+}
+.subject-box1{
+    width: 100%;
+    height: 340px;
+    /* background-color: #0b6477; */
+    /* margin: 30px; */
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+}
+.subject-box1 .box1{
+    margin: 20px;
+    width: 25%;
+    height: 200px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    background-image: url(Flutter.png.png);
+    background-size: cover;
+    background-position: center; 
+}
+.subject-box1 .box1 h1{
+    margin-left: 10px;
+    margin-top: 200px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.subject-box1 .box1 p{
+    text-align: center;
+    margin-left: 2px;
+    color: white;
+    font-size: 15px;
+    float: left;
+}
+.subject-box1 .box2{
+    margin: 20px;
+    width: 25%;
+    height: 200px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    background-image: url(Java.png.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.subject-box1 .box2 h1{
+    margin-left: 10px;
+    margin-top: 200px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.subject-box1 .box2 p{
+    text-align: center;
+    margin-left: 2px;
+    color: white;
+    font-size: 15px;
+    float: left;
+    margin-top: -7px;
+}
+.subject-box1 .box3{
+    margin: 20px;
+    width: 25%;
+    height: 200px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    background-image: url(SQL.png.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.subject-box1 .box3 h1{
+    margin-left: 10px;
+    margin-top: 200px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.subject-box1 .box3 p{
+    text-align: center;
+    margin-left: 2px;
+    color: white;
+    font-size: 15px;
+    float: left;
+    /* margin-top: -50px; */
+}
+.subject-box1 .box4{
+    margin: 20px;
+    width: 25%;
+    height: 200px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    background-image: url(CSS.png.jpg);
+    background-size: cover;     
+    background-position: center;
+}
+.subject-box1 .box4 h1{
+    margin-left: 10px;
+    margin-top: 200px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.subject-box1 .box4 p{
+    text-align: center;
+    margin-left: 2px;
+    color: white;
+    font-size: 15px;
+    float: left;
+    margin-top: 20px;
+}
+.subject-box2{
+    width: 100%;
+    height: 340px;
+    /* background-color: #0b6477; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+}
+.subject-box2 .box1{
+    margin: 20px;
+    width: 25%;
+    height: 200px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    background-image: url(C.png);
+    background-size: cover;
+    background-position: center;
+}.subject-box2 .box1 h1{
+    margin-left: 10px;
+    margin-top: 200px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.subject-box2 .box1 p{
+    text-align: center;
+    margin-left: 2px;
+    color: white;
+    font-size: 15px;
+    float: left;
+    margin-top: 20px;
+}
+.subject-box2 .box2{
+    margin: 20px;
+    width: 25%;
+    height: 200px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    background-image: url(php.png);
+    background-size: cover;
+    background-position: center;
+}
+.subject-box2 .box2 h1{
+    margin-left: 10px;
+    margin-top: 200px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.subject-box2 .box2 p{
+    text-align: center;
+    margin-left: 2px;
+    color: white;
+    font-size: 15px;
+    float: left;
+    margin-top: -5px;
+}
+.subject-box2 .box3{
+    margin: 20px;
+    width: 25%;
+    height: 200px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    background-image: url(kotlin.png);
+    background-size: cover;
+    background-position: center;
+}
+.subject-box2 .box3 h1{
+    margin-left: 10px;
+    margin-top: 200px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.subject-box2 .box3 p{
+    text-align: center;
+    margin-left: 2px;
+    color: white;
+    font-size: 15px;
+    float: left;
+    margin-top: -10px;
+}
+.subject-box2 .box4{
+    margin: 20px;
+    width: 25%;
+    height: 200px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    background-image: url(python.png.webp);
+    background-size: cover;
+    background-position: center;
+}
+.subject-box2 .box4 h1{
+    margin-left: 10px;
+    margin-top: 200px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.subject-box2 .box4 p{
+    text-align: center;
+    margin-left: 2px;
+    color: white;
+    font-size: 15px;
+    float: left;
+    margin-top: 20px;
+}
+.subject-box3{
+    width: 100%;
+    height: 340px;
+    /* background-color: #0b6477; */
+    /* margin: 30px; */
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    margin-top: 10px;
+    border-radius: 25px;
+}
+.subject-box3 .box1{
+    margin: 20px;
+    width: 25%;
+    height: 200px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    background-size: cover;
+    background-image: url(word.png);
+    background-position: center;
+    background-size: cover;
+}
+.subject-box3 .box1 h1{
+    margin-left: 10px;
+    margin-top: 200px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.subject-box3 .box1 p{
+    text-align: center;
+    margin-left: 2px;
+    color: white;
+    font-size: 15px;
+    float: left;
+    margin-top: 10px;
+}
+.subject-box3 .box2{
+    margin: 20px;
+    width: 25%;
+    height: 200px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    background-size: cover;
+    background-image: url(powerpoint.webp);
+    background-position: center;
+    background-size: cover;
+}
+.subject-box3 .box2 h1{
+    margin-left: 10px;
+    margin-top: 200px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.subject-box3 .box2 p{
+    text-align: center;
+    margin-left: 2px;
+    color: white;
+    font-size: 15px;
+    float: left;
+    margin-top: -10px;
+}
+.subject-box3 .box3{
+    margin: 20px;
+    width: 25%;
+    height: 200px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    background-size: cover;
+    background-image: url(Power-BI-logo.webp);
+    background-position: center;
+    background-size: cover;
+}
+.subject-box3 .box3 h1{
+    margin-left: 10px;
+    margin-top: 200px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.subject-box3 .box3 p{
+    text-align: center;
+    margin-left: 2px;
+    color: white;
+    font-size: 15px;
+    float: left;
+    margin-top: -10px;
+}
+.subject-box3 .box4{
+    margin: 20px;
+    width: 25%;
+    height: 200px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    background-size: cover;
+    background-image: url(photoshop.webp);
+    background-position: center;
+    background-size: cover;
+}.subject-box3 .box4 h1{
+    margin-left: 10px;
+    margin-top: 200px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.subject-box3 .box4 p{
+    text-align: center;
+    margin-left: 2px;
+    color: white;
+    font-size: 15px;
+    float: left;
+    margin-top: -10px;
+}
+footer{
+    width: 100%;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    margin-left: 30px;
+    /* text-align: center; */
+    border-radius: 15px;
+}
+footer p{
+    margin-top: 5%;
+    margin-left: 700px;
+}
